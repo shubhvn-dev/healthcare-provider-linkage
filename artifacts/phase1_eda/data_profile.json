@@ -1,0 +1,715 @@
+{
+  "pecos": {
+    "rows": 2936748,
+    "columns": 14,
+    "unique_npis": 2521536,
+    "date_range": [
+      "2002-08-01 00:00:00",
+      "2025-09-13 00:00:00"
+    ],
+    "entity_types": {
+      "I": 2502376,
+      "O": 434372
+    },
+    "fields": {
+      "NPI": {
+        "dtype": "int64",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2521536,
+        "sample_values": [
+          "1053656744",
+          "1578280707",
+          "1710872676"
+        ]
+      },
+      "MULTIPLE_NPI_FLAG": {
+        "dtype": "object",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "N",
+          "N",
+          "N"
+        ]
+      },
+      "PECOS_ASCT_CNTL_ID": {
+        "dtype": "int64",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2435588,
+        "sample_values": [
+          "3577554138",
+          "4587167663",
+          "6507373503"
+        ]
+      },
+      "ENRLMT_ID": {
+        "dtype": "object",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2936748,
+        "sample_values": [
+          "O20250912004448",
+          "O20250912004380",
+          "O20250912004283"
+        ]
+      },
+      "PROVIDER_TYPE_CD": {
+        "dtype": "object",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 325,
+        "sample_values": [
+          "12-70",
+          "12-70",
+          "12-70"
+        ]
+      },
+      "PROVIDER_TYPE_DESC": {
+        "dtype": "object",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 325,
+        "sample_values": [
+          "PART B SUPPLIER - CLINIC/GROUP PRACTICE",
+          "PART B SUPPLIER - CLINIC/GROUP PRACTICE",
+          "PART B SUPPLIER - CLINIC/GROUP PRACTICE"
+        ]
+      },
+      "STATE_CD": {
+        "dtype": "object",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 56,
+        "sample_values": [
+          "CO",
+          "CO",
+          "DC"
+        ]
+      },
+      "FIRST_NAME": {
+        "dtype": "object",
+        "non_null": 2502346,
+        "null_count": 434402,
+        "null_pct": 14.79,
+        "unique_values": 137422,
+        "sample_values": [
+          "GREGG",
+          "ELLIE",
+          "ANNE"
+        ]
+      },
+      "MDL_NAME": {
+        "dtype": "object",
+        "non_null": 1573530,
+        "null_count": 1363218,
+        "null_pct": 46.42,
+        "unique_values": 68493,
+        "sample_values": [
+          "ALAN",
+          "CAROLINE",
+          "MCCAULEY"
+        ]
+      },
+      "LAST_NAME": {
+        "dtype": "object",
+        "non_null": 2502310,
+        "null_count": 434438,
+        "null_pct": 14.79,
+        "unique_values": 407686,
+        "sample_values": [
+          "ROBBINS-WELTY",
+          "VAN SICKLE",
+          "FLEMING"
+        ]
+      },
+      "ORG_NAME": {
+        "dtype": "object",
+        "non_null": 434372,
+        "null_count": 2502376,
+        "null_pct": 85.21,
+        "unique_values": 289693,
+        "sample_values": [
+          "ELIZABETHTOWN COMMUNITY HOSPITAL",
+          "SPIRITUALLY INFUSED PSYCHIATRY LLC",
+          "HAPPY VITALS REMOTE CARE PC"
+        ]
+      },
+      "ENRLMT_ENTITY": {
+        "dtype": "object",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "O",
+          "O",
+          "O"
+        ]
+      },
+      "ENRLMT_DATE": {
+        "dtype": "datetime64[ns]",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 7518,
+        "sample_values": [
+          "2025-09-12 00:00:00",
+          "2025-09-12 00:00:00",
+          "2025-09-12 00:00:00"
+        ]
+      },
+      "ENRLMT_YEAR": {
+        "dtype": "int32",
+        "non_null": 2936748,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 24,
+        "sample_values": [
+          "2025",
+          "2025",
+          "2025"
+        ]
+      }
+    }
+  },
+  "medicare": {
+    "rows": 9660647,
+    "columns": 28,
+    "unique_npis": 1175281,
+    "fields": {
+      "Rndrng_NPI": {
+        "dtype": "int64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 1175281,
+        "sample_values": [
+          "1003000126",
+          "1003000126",
+          "1003000126"
+        ]
+      },
+      "Rndrng_Prvdr_Last_Org_Name": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 285735,
+        "sample_values": [
+          "Enkeshafi",
+          "Enkeshafi",
+          "Enkeshafi"
+        ]
+      },
+      "Rndrng_Prvdr_First_Name": {
+        "dtype": "object",
+        "non_null": 9123548,
+        "null_count": 537099,
+        "null_pct": 5.56,
+        "unique_values": 81125,
+        "sample_values": [
+          "Ardalan",
+          "Ardalan",
+          "Ardalan"
+        ]
+      },
+      "Rndrng_Prvdr_MI": {
+        "dtype": "object",
+        "non_null": 6271539,
+        "null_count": 3389108,
+        "null_pct": 35.08,
+        "unique_values": 32,
+        "sample_values": [
+          "L",
+          "L",
+          "L"
+        ]
+      },
+      "Rndrng_Prvdr_Crdntls": {
+        "dtype": "object",
+        "non_null": 8580187,
+        "null_count": 1080460,
+        "null_pct": 11.18,
+        "unique_values": 17375,
+        "sample_values": [
+          "M.D.",
+          "M.D.",
+          "M.D."
+        ]
+      },
+      "Rndrng_Prvdr_Ent_Cd": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "I",
+          "I",
+          "I"
+        ]
+      },
+      "Rndrng_Prvdr_St1": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 418342,
+        "sample_values": [
+          "6410 Rockledge Dr Ste 304",
+          "6410 Rockledge Dr Ste 304",
+          "6410 Rockledge Dr Ste 304"
+        ]
+      },
+      "Rndrng_Prvdr_St2": {
+        "dtype": "object",
+        "non_null": 2307128,
+        "null_count": 7353519,
+        "null_pct": 76.12,
+        "unique_values": 53859,
+        "sample_values": [
+          "Evanston Hospital",
+          "Evanston Hospital",
+          "Evanston Hospital"
+        ]
+      },
+      "Rndrng_Prvdr_City": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 12741,
+        "sample_values": [
+          "Bethesda",
+          "Bethesda",
+          "Bethesda"
+        ]
+      },
+      "Rndrng_Prvdr_State_Abrvtn": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 62,
+        "sample_values": [
+          "MD",
+          "MD",
+          "MD"
+        ]
+      },
+      "Rndrng_Prvdr_State_FIPS": {
+        "dtype": "object",
+        "non_null": 9660642,
+        "null_count": 5,
+        "null_pct": 0.0,
+        "unique_values": 61,
+        "sample_values": [
+          "24",
+          "24",
+          "24"
+        ]
+      },
+      "Rndrng_Prvdr_Zip5": {
+        "dtype": "object",
+        "non_null": 9660646,
+        "null_count": 1,
+        "null_pct": 0.0,
+        "unique_values": 20681,
+        "sample_values": [
+          "20817",
+          "20817",
+          "20817"
+        ]
+      },
+      "Rndrng_Prvdr_RUCA": {
+        "dtype": "float64",
+        "non_null": 9653047,
+        "null_count": 7600,
+        "null_pct": 0.08,
+        "unique_values": 22,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      "Rndrng_Prvdr_RUCA_Desc": {
+        "dtype": "object",
+        "non_null": 9653047,
+        "null_count": 7600,
+        "null_pct": 0.08,
+        "unique_values": 15,
+        "sample_values": [
+          "Metropolitan area core: primary flow within an urbanized area of 50,000 and greater",
+          "Metropolitan area core: primary flow within an urbanized area of 50,000 and greater",
+          "Metropolitan area core: primary flow within an urbanized area of 50,000 and greater"
+        ]
+      },
+      "Rndrng_Prvdr_Cntry": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 23,
+        "sample_values": [
+          "US",
+          "US",
+          "US"
+        ]
+      },
+      "Rndrng_Prvdr_Type": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 104,
+        "sample_values": [
+          "Hospitalist",
+          "Hospitalist",
+          "Hospitalist"
+        ]
+      },
+      "Rndrng_Prvdr_Mdcr_Prtcptg_Ind": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "Y",
+          "Y",
+          "Y"
+        ]
+      },
+      "HCPCS_Cd": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 6405,
+        "sample_values": [
+          "99221",
+          "99222",
+          "99231"
+        ]
+      },
+      "HCPCS_Desc": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 6392,
+        "sample_values": [
+          "Initial hospital care with straightforward or low level of medical decision making, per day, if using time, at least 40 minutes",
+          "Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",
+          "Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes"
+        ]
+      },
+      "HCPCS_Drug_Ind": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "N",
+          "N",
+          "N"
+        ]
+      },
+      "Place_Of_Srvc": {
+        "dtype": "object",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2,
+        "sample_values": [
+          "F",
+          "F",
+          "F"
+        ]
+      },
+      "Tot_Benes": {
+        "dtype": "int64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 9456,
+        "sample_values": [
+          "12",
+          "22",
+          "76"
+        ]
+      },
+      "Tot_Srvcs": {
+        "dtype": "float64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 30703,
+        "sample_values": [
+          "12.0",
+          "22.0",
+          "127.0"
+        ]
+      },
+      "Tot_Bene_Day_Srvcs": {
+        "dtype": "int64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 11848,
+        "sample_values": [
+          "12",
+          "22",
+          "127"
+        ]
+      },
+      "Avg_Sbmtd_Chrg": {
+        "dtype": "float64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 2103274,
+        "sample_values": [
+          "250.22666667",
+          "318.58181818",
+          "95.732283465"
+        ]
+      },
+      "Avg_Mdcr_Alowd_Amt": {
+        "dtype": "float64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 5894445,
+        "sample_values": [
+          "89.0625",
+          "130.31272727",
+          "54.82015748"
+        ]
+      },
+      "Avg_Mdcr_Pymt_Amt": {
+        "dtype": "float64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 5661519,
+        "sample_values": [
+          "60.3125",
+          "99.38",
+          "43.557322835"
+        ]
+      },
+      "Avg_Mdcr_Stdzd_Amt": {
+        "dtype": "float64",
+        "non_null": 9660647,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 5181264,
+        "sample_values": [
+          "54.669166667",
+          "98.429545455",
+          "38.748661417"
+        ]
+      }
+    }
+  },
+  "open_payments": {
+    "rows": 14700786,
+    "columns": 15,
+    "unique_npis": 933619,
+    "fields": {
+      "Covered_Recipient_Profile_ID": {
+        "dtype": "float64",
+        "non_null": 14669386,
+        "null_count": 31400,
+        "null_pct": 0.21,
+        "unique_values": 938292,
+        "sample_values": [
+          "760737.0",
+          "267460.0",
+          "1249653.0"
+        ]
+      },
+      "Covered_Recipient_NPI": {
+        "dtype": "float64",
+        "non_null": 14656553,
+        "null_count": 44233,
+        "null_pct": 0.3,
+        "unique_values": 933619,
+        "sample_values": [
+          "1952716680.0",
+          "1881880862.0",
+          "1144497728.0"
+        ]
+      },
+      "Covered_Recipient_First_Name": {
+        "dtype": "object",
+        "non_null": 14669288,
+        "null_count": 31498,
+        "null_pct": 0.21,
+        "unique_values": 97757,
+        "sample_values": [
+          "HILARY",
+          "ANTHONY",
+          "MARISA"
+        ]
+      },
+      "Covered_Recipient_Last_Name": {
+        "dtype": "object",
+        "non_null": 14669035,
+        "null_count": 31751,
+        "null_pct": 0.22,
+        "unique_values": 290120,
+        "sample_values": [
+          "FRANK",
+          "SANDERS",
+          "DAHLMAN"
+        ]
+      },
+      "Recipient_Primary_Business_Street_Address_Line1": {
+        "dtype": "object",
+        "non_null": 14700739,
+        "null_count": 47,
+        "null_pct": 0.0,
+        "unique_values": 739987,
+        "sample_values": [
+          "9825 HOSPITAL DRIVE STE 205",
+          "1400 N RITTER AVE",
+          "1100 9TH AVE"
+        ]
+      },
+      "Recipient_City": {
+        "dtype": "object",
+        "non_null": 14700785,
+        "null_count": 1,
+        "null_pct": 0.0,
+        "unique_values": 22631,
+        "sample_values": [
+          "MAPLE GROVE",
+          "INDIANAPOLIS",
+          "SEATTLE"
+        ]
+      },
+      "Recipient_State": {
+        "dtype": "object",
+        "non_null": 14700169,
+        "null_count": 617,
+        "null_pct": 0.0,
+        "unique_values": 59,
+        "sample_values": [
+          "MN",
+          "IN",
+          "WA"
+        ]
+      },
+      "Recipient_Zip_Code": {
+        "dtype": "object",
+        "non_null": 14700169,
+        "null_count": 617,
+        "null_pct": 0.0,
+        "unique_values": 284747,
+        "sample_values": [
+          "55369",
+          "46219-3050",
+          "98101-2756"
+        ]
+      },
+      "Submitting_Applicable_Manufacturer_or_Applicable_GPO_Name": {
+        "dtype": "object",
+        "non_null": 14700786,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 1837,
+        "sample_values": [
+          "Minerva Surgical, Inc",
+          "Minerva Surgical, Inc",
+          "Minerva Surgical, Inc"
+        ]
+      },
+      "Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Name": {
+        "dtype": "object",
+        "non_null": 14700786,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 1869,
+        "sample_values": [
+          "Minerva Surgical, Inc",
+          "Minerva Surgical, Inc",
+          "Minerva Surgical, Inc"
+        ]
+      },
+      "Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_State": {
+        "dtype": "object",
+        "non_null": 14648432,
+        "null_count": 52354,
+        "null_pct": 0.36,
+        "unique_values": 47,
+        "sample_values": [
+          "CA",
+          "CA",
+          "CA"
+        ]
+      },
+      "Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Country": {
+        "dtype": "object",
+        "non_null": 14700786,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 34,
+        "sample_values": [
+          "United States",
+          "United States",
+          "United States"
+        ]
+      },
+      "Total_Amount_of_Payment_USDollars": {
+        "dtype": "float64",
+        "non_null": 14700786,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 125093,
+        "sample_values": [
+          "13.3",
+          "13.25",
+          "38.39"
+        ]
+      },
+      "Date_of_Payment": {
+        "dtype": "object",
+        "non_null": 14700786,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 365,
+        "sample_values": [
+          "09/11/2023",
+          "08/17/2023",
+          "07/18/2023"
+        ]
+      },
+      "Program_Year": {
+        "dtype": "int64",
+        "non_null": 14700786,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_values": 1,
+        "sample_values": [
+          "2023",
+          "2023",
+          "2023"
+        ]
+      }
+    }
+  }
+}
