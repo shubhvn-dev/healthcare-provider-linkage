@@ -41,10 +41,12 @@ data/*.gz
 data/*.bz2
 
 # Artifacts (large pipeline outputs)
+# Ignore large artifact data files only
 artifacts/**/*.parquet
 artifacts/**/*.csv
-artifacts/**/*.png
-artifacts/**/*.json
+artifacts/**/*.zip
+artifacts/**/*.gz
+
 
 # Environment variables
 .env
