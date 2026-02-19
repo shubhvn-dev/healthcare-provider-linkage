@@ -1,0 +1,4 @@
+method,scope,matches_or_pairs,runtime_sec,reduction_ratio,note
+Exact NPI,tier-1,542329,0.65,,Gold standard for tier-1; cannot handle tier-2
+Strategy B (State+Soundex),tier-2,427752,0.84,0.99992228,Best traditional blocking from Phase 3
+"LSH (perm=128, thresh=0.5)",tier-2,100196,1695.8,0.9999818,Best LSH config from sweep

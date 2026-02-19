@@ -1,0 +1,14 @@
+metric,value
+total_providers_medicare_backbone,1237145
+providers_with_pecos_enrollment,1138463
+providers_with_op_payments,542442
+providers_linkage_coverage_0,89506
+providers_linkage_coverage_1,614373
+providers_linkage_coverage_2,533266
+op_tier2_total_records,4683
+op_tier2_with_med_link,438
+op_all_with_pid_total,542767
+op_all_unique_providers,542442
+op_med_pecos_full_chains,365
+multi_match_conflicts,82
+name_mismatches,28787

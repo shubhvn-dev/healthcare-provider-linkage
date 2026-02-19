@@ -1,0 +1,2 @@
+num_perm,threshold,candidate_pairs,reduction_ratio,pc_vs_strategy_B,unique_to_lsh,overlap_with_B,runtime_sec,pairs_per_sec
+128,0.5,100196,0.999981795258729,8.58,63483,36713,1695.8,59.0

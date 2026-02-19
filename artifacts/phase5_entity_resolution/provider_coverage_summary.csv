@@ -1,0 +1,8 @@
+region,count
+OP_only,0
+Medicare_only,89506
+PECOS_only,0
+OP_Med,9176
+Med_PECOS,605197
+OP_PECOS,0
+All_three,533266
