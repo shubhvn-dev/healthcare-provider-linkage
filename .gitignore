@@ -1,0 +1,57 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files
+data/*.csv
+data/*.tsv
+data/*.parquet
+data/*.zip
+data/*.gz
+data/*.bz2
+
+# Artifacts (large pipeline outputs)
+artifacts/**/*.parquet
+artifacts/**/*.csv
+artifacts/**/*.png
+artifacts/**/*.json
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Distribution
+*.tar.gz
