@@ -22,7 +22,7 @@ A `pytest`-based test suite validating:
 ## Running
 
 ```bash
-cd gap8_test_suite
+cd test_suite
 
 # All tests
 pytest -v
